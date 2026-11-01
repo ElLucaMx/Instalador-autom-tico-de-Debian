@@ -339,8 +339,6 @@ Los mensajes `File descriptor ... leaked` son advertencias emitidas durante las 
 - La imagen original se conserva como base para generar la ISO personalizada.
 - La integridad de la ISO original se comprueba mediante SHA-512. El manifiesto MD5 de la imagen personalizada se actualiza para reflejar los archivos modificados.
 
-**Importante antes de publicar el repositorio:** el archivo Preseed contiene hashes de contraseña predefinidos para `root` y `usuario`. Aunque no sean contraseñas en texto plano, deben sustituirse por hashes propios antes de publicar la herramienta. De lo contrario, cualquier persona que utilice la ISO generada podría conocer las credenciales configuradas.
-
 ## Tecnologías utilizadas
 
 - Debian 13 (Trixie).
