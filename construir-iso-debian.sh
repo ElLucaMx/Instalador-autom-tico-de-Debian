@@ -1734,7 +1734,6 @@ f_personalizar_iso() {
     echo "Iniciando personalización de la ISO"
     echo "================================================"
 
-    f_comprobar_archivos_iso || return 1
     f_crear_directorio_temporal || return 1
 
     if f_extraer_md5 &&

@@ -1,0 +1,6 @@
+# Ignorar todo en el directorio
+*
+
+# Excepciones: permitir el archivo .gitignore y el script específico
+!.gitignore
+!construir-iso-debian.sh
